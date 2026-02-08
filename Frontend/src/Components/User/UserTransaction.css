@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--secondary-accent);
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--text-primary);
+  
+}
+
+.transaction-container {
+  margin-top: 80px;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.transaction-container h2 {
+  font-size: var(--font-size-lg);
+  margin-bottom: 30px;
+  color: var(--primary-color);
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  background: var(--primary-dark);
+  padding: var(--padding-lg);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--secondary-accent);
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.transaction-table th {
+  background-color: var(--secondary-accent);
+  color: var(--primary-color);
+}
+
+.amount-positive {
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+.amount-negative {
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: var(--primary-dark);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: var(--highlight-color);
+}

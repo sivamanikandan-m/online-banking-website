@@ -1,0 +1,47 @@
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-color);
+  color: var(--text-primary);
+  padding: 20px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.bank-name {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-sm);
+}
+
+.social-icons a {
+  color: var(--highlight-color);
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--button-hover);
+}
+
+@media (max-width: 600px) {
+  .bank-name {
+    font-size: 18px;
+  }
+
+  .social-icons a {
+    font-size: 1rem;
+  }
+
+  .main-navbar {
+    padding: 8px 16px;
+  }
+}

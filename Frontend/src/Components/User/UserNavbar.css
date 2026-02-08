@@ -1,0 +1,48 @@
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary-color);
+  color: var(--text-primary);
+  padding: 20px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.bank-name {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-lg);
+}
+
+.nav-links link,span {
+  color: var(--highlight-color);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links link,span:hover {
+  color: var(--button-hover);
+}
+
+@media (max-width: 600px) {
+  .bank-name {
+    font-size: 18px;
+  }
+
+  .nav-links a {
+    font-size: 0.95rem;
+  }
+
+  .main-navbar {
+    padding: 8px 16px;
+  }
+}

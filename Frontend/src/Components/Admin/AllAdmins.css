@@ -1,0 +1,80 @@
+.all-admins-container {
+    margin-top: 80px;
+  padding: 20px;
+  background-color: var(--secondary-accent);
+  border-radius: var(--border-radius);
+}
+
+.table-title {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 20px;
+}
+
+.admins-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  background: var(--primary-dark);
+  padding: var(--padding-lg);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--secondary-accent);
+}
+
+.admins-table th,
+.admins-table td{
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.admins-table thead {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.admins-table td {
+  padding: var(--padding-sm);
+  color: var(--text-primary);
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.status-badge.active {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.status-badge.inactive {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.action-btn {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.action-btn.activate {
+  background-color: #28a745;
+  color: white;
+}
+
+.action-btn.deactivate {
+  background-color: #dc3545;
+  color: white;
+}
+
+.action-btn:hover {
+  background-color: var(--button-hover);
+  color: var(--primary-color);
+}

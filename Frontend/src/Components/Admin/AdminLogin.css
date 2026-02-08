@@ -1,0 +1,62 @@
+.admin-login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secondary-accent);
+}
+
+.admin-login-box {
+  background-color: rgba(18, 18, 18, 0.8);
+  padding: var(--padding-lg);
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  width: 350px;
+  height: 300px;
+  color: var(--text-primary);
+  gap: var(--gap-lg)
+}
+
+.admin-login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--secondary-accent);
+}
+
+.admin-login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-login-box label {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.admin-login-box input {
+  padding: var(--padding-sm);
+  margin-bottom: 16px;
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--primary-dark);
+  color: var(--text-primary);
+}
+
+.admin-login-box input::placeholder {
+  color: var(--text-secondary);
+}
+
+.admin-login-box button {
+  padding: var(--padding-sm);
+  background-color: var(--secondary-accent);
+  color: var(--primary-color);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: var(--font-weight-bold);
+  transition: background-color 0.3s ease;
+}
+
+.admin-login-box button:hover {
+  background-color: var(--button-hover);
+}

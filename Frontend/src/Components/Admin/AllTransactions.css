@@ -1,0 +1,52 @@
+.alltransactions-container {
+  margin-top: 80px;
+  padding: var(--padding-lg);
+  background-color: var(--secondary-accent);
+  min-height: 100vh;
+}
+
+.alltransactions-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-dark);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Filter Section */
+.filter-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.filter-input,
+.filter-select {
+  padding: 8px;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--secondary-accent);
+  outline: none;
+}
+
+/* Table Styling (from your provided style) */
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  background: var(--background-color);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--secondary-accent);
+}
+
+.users-table th,
+.users-table td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.users-table thead {
+  background-color: var(--secondary-accent);
+  color: white;
+}
+

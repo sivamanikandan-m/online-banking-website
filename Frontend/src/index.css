@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+:root {
+  /* Primary Colors */
+  --primary-color: #000000;          /* Deep Black */
+  --primary-dark: #0A0A0A;           /* Slightly lighter black for hover or depth */
+
+  /* Accent and Background */
+  --secondary-accent: #D4AF37;       /* Rich Gold (main accent color) */
+  --background-color: #121212;       /* Dark background for cards/sections */
+
+  /* Text Colors */
+  --text-primary: #F5F5F5;           /* Near-white text on black */
+  --text-secondary: #C0C0C0;         /* Muted silver/gold-gray for secondary text */
+
+  /* Button & CTA */
+  --button-hover: #FFD700;           /* Brighter gold for hover effects */
+  --highlight-color: #FFFFFF;        /* Used for contrast or callouts */
+
+  /* Spacing & Sizes */
+  --font-size-lg: 24px;
+  --font-weight-bold: 700;
+  --padding-sm: 6px 12px;
+  --padding-lg: 15px 30px;
+  --border-radius: 6px;
+  --gap-lg: 35px;
+  --gap-sm: 15px;
+}

@@ -1,0 +1,77 @@
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secondary-accent);
+}
+
+.register-box {
+  background-color: rgba(18, 18, 18, 0.8);
+  padding: var(--padding-lg);
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  width: 350px;
+  height: 350px;
+  color: var(--text-primary);
+}
+
+.register-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--secondary-accent);
+}
+
+.register-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-box label {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.register-box input {
+  padding: var(--padding-sm);
+  margin-bottom: 16px;
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--primary-dark);
+  color: var(--text-primary);
+}
+
+.register-box input::placeholder {
+  color: var(--text-secondary);
+}
+
+.register-box button {
+  padding: var(--padding-sm);
+  background-color: var(--secondary-accent);
+  color: var(--primary-color);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: var(--font-weight-bold);
+  transition: background-color 0.3s ease;
+}
+
+.register-box button:hover {
+  background-color: var(--button-hover);
+}
+
+.login-text {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.login-text a {
+  color: var(--secondary-accent);
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  color: var(--button-hover);
+}
